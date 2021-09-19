@@ -1,8 +1,12 @@
 # Delivery Company Database
 
-Delivery Company Database is an Oracle SQL developed database that utilizes 3rd Normal Form to ensure an optimal and clean data-managment system. It was developed for the intended use of a food delivery company, as it allows the user to store Employee info, restaurants, orders, transactions, and more through the use of 3NF table construction. Below is a documentation of all tables used, along with a brief description of their purpose.
+Delivery Company Database is an Oracle SQL developed database that utilizes 3rd Normal Form to ensure an optimal and clean data-managment system. It was developed for the intended use of a food delivery company, as it allows the user to store Employee info, restaurants, orders, transactions, and more through the use of 3NF table construction.
 
-## Database Documentation
+## 3NF EER Schema of Database
+
+![3rd Normal Form EER Schema of Database](3NF_EER_Diagram.PNG)
+
+## Table Documentation
 
 ### Employee
 Stores an employes name, ID, address, gender, dob, and ensures that no employee can be below the age of 18.
